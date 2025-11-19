@@ -1,7 +1,7 @@
 {
     "menu": {
         "main": {
-            "title": "Project Rebearth Serwer",
+            "title": "Serwer Project Rebearth",
             "subtitle": "To jest demo gry Project Rebearth! Tylko tryb piaskownicy jest dostępny publicznie. Zgłoś proszę, jeśli napotkasz problemy w trakcie gry.",
             "serverOffline": "Nie można połączyć się z serwerem. Sprawdź swoje połączenie z internetem.",
             "enterMultiplayer": "Dołącz do Świata",
@@ -446,4 +446,5 @@
             "scienceLeague": "Liga Naukowa"
         }
     }
+
 }
