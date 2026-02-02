@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Slett",
+        "deleting": "Sletter...",
         "loading": "Laster..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Vårt territorium strekker seg så langt vi kan se. Hvis vi kan se lenger, utvides vårt territorium ytterligere.",
                 "windmill": "Det er utrolig at noen klarte å gjøre vinden om til mat. Det er den eneste mulige måten å gjøre de harde plantebergartene om til mel til vårt myke, deilige brød.",
                 "windmill_upgraded": "Med disse rare materialene vi finner, er jeg sikker på at vi kan få denne vindmøllen til å gå enda raskere. Jo flere bevegelige deler, jo bedre, ikke sant?",
-                "woodcutter": "Treskjæreren vil skjære tre. De er veldig flinke til det, men ser ut til å være dårlige til å barbere seg.",
+                "woodcutter": "Treskjæreren vil hugge tre. Hvor mye tre? Så mye som en treskjærer kan.",
                 "refinery": "Raffineriet brukes til å raffinere rare steiner til skinnende, formbare steiner.",
                 "iron_mine": "Vi gravde en dyp grop fordi vi fant noen rare steiner. La oss sende alle våre folk dit for å hente dem. Hva er det verste som kan skje?",
                 "glassworks": "Glassworks lar deg produsere glass av sand, som kan brukes til ulike avanserte formål.",
@@ -420,7 +421,7 @@
             "welcome": "Velkommen, {{name}}!"
         },
         "sandbox": {
-            "description": "Sandkasse-modus lar deg bygge fritt uten begrensningene i flerspillerverdenen. Du kan lagre fremgangen din og laste den inn senere.",
+            "description": "Sandkassemodus lar deg bygge fritt uten begrensningene i flerspillerverdenen. Det er bare deg og ingen ressursbegrensninger. Du kan lagre fremgangen din og laste den inn senere.",
             "loadFromFile": "Last inn fra fil",
             "loadTitle": "Last inn Sandbox",
             "noSaves": "Ingen lokale lagringer funnet.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Lås opp ved 1000 innbyggere",
             "unlockHint100000": "Låses opp ved 100 000 innbyggere",
             "unnamedCity": "Unavngitt by"
+        },
+        "locked": {
+            "settleFirst": "Bygg først sentrum av byen din.",
+            "townHall": "Bygg et rådhus for å låse opp global rangering, allianser og valgmuligheter.",
+            "university": "Bygg et universitet for å låse opp ekspedisjoner og forskning.",
+            "market": "Bygg et marked eller en havn for å låse opp det globale markedet.",
+            "noBiomeAssets": "Det finnes ingen bygninger av denne typen i dette biom."
         }
     },
     "modals": {
@@ -627,7 +635,8 @@
             "Bruk shift-tasten for å fortsette å plassere bygninger.",
             "Hvis du støter på problemer, vennligst gi oss beskjed på Discord.",
             "Noen bygninger kan bare plasseres i nærheten av hovedbygningen. For eksempel sagbruket og trefelleren.",
-            "Ikke alle ressurser er like lett tilgjengelige overalt. Noen ganger vil det være billigere å handle enn å produsere alt selv."
+            "Ikke alle ressurser er like lett tilgjengelige overalt. Noen ganger vil det være billigere å handle enn å produsere alt selv.",
+            "En anmeldelse på Steam hjelper oss med å finne nye spillere som gjør dette til en levende verden."
         ]
     },
     "tooltip": {

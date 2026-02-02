@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Radera",
+        "deleting": "Radera...",
         "loading": "Laddar..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Vårt territorium sträcker sig så långt vi kan se. Om vi kan se längre, utvidgas vårt territorium ytterligare.",
                 "windmill": "Det är helt galet att någon har lyckats förvandla vinden till mat. Det är det enda sättet att förvandla de hårda växtstenarna till mjöl för vårt mjuka, läckra bröd.",
                 "windmill_upgraded": "Med de här konstiga materialen vi hittar kan vi säkert få vindkraftverket att gå ännu snabbare. Ju fler rörliga delar, desto bättre, eller hur?",
-                "woodcutter": "Träskäraren kommer att hugga ved. De är riktigt bra på det, men verkar vara dåliga på att raka sig.",
+                "woodcutter": "Skogshuggaren kommer att hugga ved. Hur mycket ved? Så mycket som en skogshuggare kan.",
                 "refinery": "Raffinaderiet används för att förädla konstiga stenar till glänsande formbara stenar.",
                 "iron_mine": "Vi grävde en djup grop eftersom vi hittade några konstiga stenar. Låt oss skicka alla våra människor dit för att hämta dem. Vad är det värsta som kan hända?",
                 "glassworks": "Glassworks låter dig producera glas från sand, som kan användas för olika avancerade tillämpningar.",
@@ -373,12 +374,12 @@
         "based": {
             "w": {
                 "message1": "Bra val! Du har bosatt dig i ett biom fullt av frodiga träd och vilda djur. Att hitta trä och samla resurser kommer inte att vara något problem här. Mer komplexa material och malmer kan dock vara lite svårare att hitta. Men jag tror på dig och du kommer att se att ingenting är omöjligt.",
-                "message2": "Dina möjligheter är fortfarande begränsade. Se till att du först får en stadig ström av resurser. Bygg sedan upp en marknad så att du kan handla med andra bosättningar. När du har fått fotfäste kan du till och med starta större projekt som en hamn, så att handeln blir billigare, ett rådhus, så att vi kan hålla reda på allt, eller till och med ett universitet så att du kan börja utforska världen omkring oss.",
+                "message2": "Dina möjligheter är fortfarande begränsade. Se till att du först får en stadig ström av resurser. Bygg sedan en marknad så att du kan handla med andra bosättningar. När du har fått fotfäste kan du till och med starta större projekt som en hamn, så att handeln blir billigare, ett rådhus, så att vi kan hålla reda på allt, eller till och med ett universitet så att du kan börja utforska världen omkring oss.",
                 "good_luck": "Du klarar det!"
             },
             "s": {
                 "message1": "Ett bra val att bosätta sig i denna steniga biom där du kan bli ett med jorden. Att hitta sten och malm är inget problem här. Det kan dock vara lite svårare att odla mat. Men jag är säker på att andra gärna byter mot dina rikliga tillgångar av värdefulla material.",
-                "message2": "Dina möjligheter är fortfarande begränsade. Se till att du först får en stadig ström av resurser. Bygg sedan upp en marknad så att du kan handla med andra bosättningar. När du har fått fotfäste kan du till och med starta större projekt som en hamn, så att handeln blir billigare, ett rådhus, så att vi kan hålla reda på allt, eller till och med ett universitet så att du kan börja utforska världen omkring oss.",
+                "message2": "Dina möjligheter är fortfarande begränsade. Se till att du först får en stadig ström av resurser. Bygg sedan en marknad så att du kan handla med andra bosättningar. När du har fått fotfäste kan du till och med starta större projekt som en hamn, så att handeln blir billigare, ett rådhus, så att vi kan hålla reda på allt, eller till och med ett universitet så att du kan börja utforska världen omkring oss.",
                 "good_luck": "Bygg starkt!"
             },
             "e": {
@@ -420,7 +421,7 @@
             "welcome": "Välkommen, {{name}}!"
         },
         "sandbox": {
-            "description": "Sandbox-läget låter dig bygga fritt utan begränsningarna i multiplayer-världen. Du kan spara dina framsteg och ladda dem senare.",
+            "description": "Sandbox-läget låter dig bygga fritt utan begränsningarna i multiplayer-världen. Det är bara du och inga resursbegränsningar. Du kan spara dina framsteg och ladda dem senare.",
             "loadFromFile": "Ladda från fil",
             "loadTitle": "Ladda Sandbox",
             "noSaves": "Inga lokala sparade spel hittades.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Lås upp vid 1 000 invånare",
             "unlockHint100000": "Lås upp vid 100 000 invånare",
             "unnamedCity": "Namnlös stad"
+        },
+        "locked": {
+            "settleFirst": "Börja med att bygga din stads centrum.",
+            "townHall": "Bygg ett rådhus för att låsa upp global ranking, allianser och valmöjligheter.",
+            "university": "Bygg ett universitet för att låsa upp expeditioner och forskning.",
+            "market": "Bygg en marknad eller hamn för att låsa upp den globala marknaden.",
+            "noBiomeAssets": "Inga byggnader av denna typ finns tillgängliga i denna biom."
         }
     },
     "modals": {
@@ -621,13 +629,14 @@
     },
     "tips": {
         "loading": [
-            "En dag i spelet motsvarar en dag i verkliga livet. Ta din tid och bygg upp din stad i din egen takt.",
+            "En dag i spelet motsvarar en dag i verkliga livet. Ta din tid och utveckla din stad i din egen takt.",
             "Du kan rotera byggnader innan du placerar dem med hjälp av tangenterna Q och E.",
             "Dubbelklicka i formredigeraren för att placera noder.",
             "Använd skift-tangenten för att fortsätta placera byggnader.",
             "Om du stöter på några problem, vänligen meddela oss på Discord.",
             "Vissa byggnader kan endast placeras nära den överordnade byggnaden. Till exempel sågen och skogshuggaren.",
-            "Alla resurser är inte lika lätta att få tag på överallt. Ibland kan det vara billigare att handla än att producera allt själv."
+            "Alla resurser är inte lika lätta att få tag på överallt. Ibland kan det vara billigare att handla än att producera allt själv.",
+            "En recension på Steam hjälper oss att hitta nya spelare som gör detta till en levande värld."
         ]
     },
     "tooltip": {

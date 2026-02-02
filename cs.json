@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Smazat",
+        "deleting": "Odstraňování...",
         "loading": "Načítání..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Naše území sahá tak daleko, jak vidíme. Pokud vidíme dále, naše území se dále rozšiřuje.",
                 "windmill": "Je šílené, jak někdo dokázal proměnit vítr v jídlo. Je to jediný proveditelný způsob, jak proměnit ty tvrdé rostlinné kameny v mouku pro náš měkký lahodný chléb.",
                 "windmill_upgraded": "S těmito podivnými materiály, které jsme našli, určitě dokážeme, aby tento větrný mlýn fungoval ještě rychleji. Čím více pohyblivých částí, tím lépe, že?",
-                "woodcutter": "Dřevorubec bude řezat dřevo. Jsou v tom opravdu dobří, ale zdá se, že jim holení moc nejde.",
+                "woodcutter": "Dřevorubec bude řezat dřevo. Kolik dřeva? Tolik, kolik dřevorubec zvládne.",
                 "refinery": "Rafinerie se používá k rafinaci podivných hornin na lesklé tvárné horniny.",
                 "iron_mine": "Vykopali jsme hlubokou jámu, protože jsme našli nějaké podivné kameny. Pošleme tam všechny naše lidi, aby je přinesli. Co horšího se může stát?",
                 "glassworks": "Glassworks vám umožňuje vyrábět sklo z písku, které lze použít pro různé pokročilé aplikace.",
@@ -420,7 +421,7 @@
             "welcome": "Vítejte, {{name}}!"
         },
         "sandbox": {
-            "description": "Režim Sandbox vám umožňuje stavět bez omezení multiplayerového světa. Svůj postup můžete uložit a později načíst.",
+            "description": "Režim Sandbox vám umožňuje stavět bez omezení multiplayerového světa. Jste to jen vy a žádné omezení zdrojů. Svůj postup můžete uložit a později načíst.",
             "loadFromFile": "Načíst ze souboru",
             "loadTitle": "Načíst Sandbox",
             "noSaves": "Nebyly nalezeny žádné lokální uložené hry.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Odemknout při 1 000 obyvatelích",
             "unlockHint100000": "Odemknout při 100 000 obyvatelích",
             "unnamedCity": "Bezejmenné město"
+        },
+        "locked": {
+            "settleFirst": "Nejprve vybudujte centrum svého města.",
+            "townHall": "Postavte radnici a odemkněte globální žebříček, aliance a možnosti.",
+            "university": "Postavte univerzitu, abyste odemkli expedice a výzkum.",
+            "market": "Postavte trh nebo přístav, abyste odemkli globální trh.",
+            "noBiomeAssets": "V tomto biomu nejsou k dispozici žádné budovy tohoto typu."
         }
     },
     "modals": {
@@ -627,7 +635,8 @@
             "Pomocí klávesy Shift můžete pokračovat v umisťování budov.",
             "Pokud narazíte na nějaké problémy, dejte nám prosím vědět na Discord.",
             "Některé budovy lze umístit pouze v blízkosti mateřské budovy. Například pila a dřevorubec.",
-            "Ne všechny suroviny lze snadno získat všude. Někdy bude obchodování levnější než vlastní výroba."
+            "Ne všechny suroviny lze snadno získat všude. Někdy bude obchodování levnější než vlastní výroba.",
+            "Recenze na Steam nám pomáhá najít nové hráče, kteří tento svět oživují."
         ]
     },
     "tooltip": {

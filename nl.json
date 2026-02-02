@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Verwijderen",
+        "deleting": "Verwijderen...",
         "loading": "Bezig met laden..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Ons territorium strekt zich uit zover we kunnen zien. Als we verder kunnen kijken, wordt ons territorium groter.",
                 "windmill": "Gek hoe iemand de wind in voedsel kon veranderen. Het is de enige haalbare manier om die harde plantenrotsen om te zetten in meel voor ons zachte, heerlijke brood.",
                 "windmill_upgraded": "Met deze vreemde materialen die we vinden, kunnen we deze windmolen vast nog sneller laten draaien. Hoe meer bewegende onderdelen, hoe beter, toch?",
-                "woodcutter": "De houthakker zal hout hakken. Ze zijn daar erg goed in, maar lijken slecht te zijn in scheren.",
+                "woodcutter": "De houthakker zal hout hakken. Hoeveel hout? Zoveel als een houthakker kan.",
                 "refinery": "De raffinaderij wordt gebruikt om vreemde stenen te raffineren tot glanzende, kneedbare stenen.",
                 "iron_mine": "We hebben een diepe kuil gegraven, omdat we een paar vreemde stenen hebben gevonden. Laten we al onze mensen daarheen sturen om ze op te halen. Wat kan er nou misgaan?",
                 "glassworks": "Met Glassworks kun je glas maken van zand, dat voor allerlei geavanceerde toepassingen kan worden gebruikt.",
@@ -373,12 +374,12 @@
         "based": {
             "w": {
                 "message1": "Goede keuze! Je hebt je gevestigd in een biotoop vol weelderige bomen en wilde dieren. Hout vinden en grondstoffen verzamelen zal hier geen probleem zijn. Complexere materialen en ertsen zijn misschien wat moeilijker te vinden. Maar ik geloof in je en je zult zien dat niets onmogelijk is.",
-                "message2": "Je mogelijkheden zijn nog beperkt. Zorg eerst voor een gestage stroom van grondstoffen. Bouw vervolgens een markt zodat je met andere nederzettingen kunt handelen. Naarmate je meer voet aan de grond krijgt, kun je zelfs grotere projecten starten, zoals een haven, zodat handel goedkoper wordt, een gemeentehuis, zodat we alles kunnen bijhouden, of zelfs een universiteit, zodat je de wereld om ons heen kunt gaan verkennen.",
+                "message2": "Je mogelijkheden zijn nog beperkt. Zorg eerst voor een gestage stroom van grondstoffen. Bouw vervolgens een markt op, zodat je handel kunt drijven met andere nederzettingen. Naarmate je meer voet aan de grond krijgt, kun je zelfs grotere projecten starten, zoals een haven, zodat handel goedkoper wordt, een gemeentehuis, zodat we alles kunnen bijhouden, of zelfs een universiteit, zodat je de wereld om ons heen kunt gaan verkennen.",
                 "good_luck": "Je kunt het!"
             },
             "s": {
                 "message1": "Een uitstekende keuze om je te vestigen in dit rotsachtige biotoop waar je één kunt worden met de aarde. Het vinden van steen en erts zal hier geen probleem zijn. Hoewel het misschien wat moeilijker is om voedsel te verbouwen. Maar ik weet zeker dat anderen graag zullen ruilen voor je overvloed aan kostbare materialen.",
-                "message2": "Je mogelijkheden zijn nog beperkt. Zorg eerst voor een gestage stroom van grondstoffen. Bouw vervolgens een markt zodat je met andere nederzettingen kunt handelen. Naarmate je meer voet aan de grond krijgt, kun je zelfs grotere projecten starten, zoals een haven, zodat handel goedkoper wordt, een gemeentehuis, zodat we alles kunnen bijhouden, of zelfs een universiteit, zodat je de wereld om ons heen kunt gaan verkennen.",
+                "message2": "Je mogelijkheden zijn nog beperkt. Zorg eerst voor een gestage stroom van grondstoffen. Bouw vervolgens een markt op, zodat je handel kunt drijven met andere nederzettingen. Naarmate je meer voet aan de grond krijgt, kun je zelfs grotere projecten starten, zoals een haven, zodat handel goedkoper wordt, een gemeentehuis, zodat we alles kunnen bijhouden, of zelfs een universiteit, zodat je de wereld om ons heen kunt gaan verkennen.",
                 "good_luck": "Bouw sterk!"
             },
             "e": {
@@ -420,7 +421,7 @@
             "welcome": "Welkom, {{name}}!"
         },
         "sandbox": {
-            "description": "In de sandboxmodus kun je vrij bouwen zonder de beperkingen van de multiplayerwereld. Je kunt je voortgang opslaan en later laden.",
+            "description": "In de sandboxmodus kun je vrij bouwen zonder de beperkingen van de multiplayerwereld. Het is alleen jij en er zijn geen beperkingen op het gebied van middelen. Je kunt je voortgang opslaan en later weer laden.",
             "loadFromFile": "Laden vanuit bestand",
             "loadTitle": "Sandbox laden",
             "noSaves": "Geen lokale opgeslagen gegevens gevonden.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Ontgrendelen bij 1000 inwoners",
             "unlockHint100000": "Ontgrendelen bij 100.000 inwoners",
             "unnamedCity": "Naamloze stad"
+        },
+        "locked": {
+            "settleFirst": "Bouw eerst het centrum van je stad.",
+            "townHall": "Bouw een stadhuis om de wereldwijde ranglijst, allianties en keuzes te ontgrendelen.",
+            "university": "Bouw een universiteit om expedities en onderzoek te ontgrendelen.",
+            "market": "Bouw een markt of haven om de wereldmarkt te ontsluiten.",
+            "noBiomeAssets": "Er zijn geen gebouwen van dit type beschikbaar in dit biotoop."
         }
     },
     "modals": {
@@ -627,7 +635,8 @@
             "Gebruik de shift-toets om gebouwen te blijven plaatsen.",
             "Als je problemen ondervindt, laat het ons dan weten op Discord.",
             "Sommige gebouwen kunnen alleen in de buurt van het moedergebouw worden geplaatst. Zoals de zaag en de houthakker.",
-            "Niet alle grondstoffen zijn overal even gemakkelijk te verkrijgen. Soms is handelen goedkoper dan alles zelf produceren."
+            "Niet alle grondstoffen zijn overal even gemakkelijk te verkrijgen. Soms is handelen goedkoper dan alles zelf produceren.",
+            "Een recensie op Steam helpt ons nieuwe spelers te vinden die deze wereld tot leven brengen."
         ]
     },
     "tooltip": {

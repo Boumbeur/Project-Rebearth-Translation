@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Ștergeți",
+        "deleting": "Ștergere...",
         "loading": "Se încarcă..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Teritoriul nostru se întinde până unde putem vedea. Dacă putem vedea mai departe, teritoriul nostru se extinde și mai mult.",
                 "windmill": "E incredibil cum cineva a reușit să transforme vântul în hrană. E singura modalitate fezabilă de a transforma acele roci vegetale dure în făină pentru pâinea noastră moale și delicioasă.",
                 "windmill_upgraded": "Cu aceste materiale ciudate pe care le găsim, sunt sigur că putem face această moară de vânt să funcționeze și mai repede. Cu cât sunt mai multe piese mobile, cu atât mai bine, nu?",
-                "woodcutter": "Tăietorul de lemne va tăia lemne. Se pricepe foarte bine la asta, dar se pare că nu se pricepe la bărbierit.",
+                "woodcutter": "Tăietorul de lemne va tăia lemne. Cât de multe lemne? Cât poate tăia un tăietor de lemne.",
                 "refinery": "Rafinăria este utilizată pentru a transforma roci ciudate în roci strălucitoare și maleabile.",
                 "iron_mine": "Am săpat o groapă adâncă, pentru că am găsit niște pietre ciudate. Să trimitem toți oamenii acolo să le aducă. Ce poate să se întâmple rău?",
                 "glassworks": "Glassworks vă permite să produceți sticlă din nisip, care poate fi utilizată pentru diverse aplicații avansate.",
@@ -378,7 +379,7 @@
             },
             "s": {
                 "message1": "O alegere excelentă pentru a te stabili în acest biom stâncos, unde poți deveni unul cu pământul. Găsirea pietrei și a minereului nu va fi o problemă aici. Cu toate că cultivarea alimentelor ar putea fi puțin mai dificilă. Dar sunt sigur că alții vor fi fericiți să facă schimb pentru abundența ta de materiale prețioase.",
-                "message2": "Capacitățile tale sunt încă limitate. Asigură-te mai întâi că ai un flux constant de resurse. Apoi construiește o piață pentru a putea face comerț cu alte așezări. Pe măsură ce câștigi teren, poți începe chiar și proiecte mai mari, cum ar fi un port, pentru ca comerțul să devină mai ieftin, o primărie, pentru a putea ține evidența tuturor lucrurilor, sau chiar o universitate, pentru a putea începe să explorezi lumea din jurul nostru.",
+                "message2": "Capacitățile tale sunt încă limitate. Asigură-te mai întâi că ai un flux constant de resurse. Apoi construiește o piață, astfel încât să poți face comerț cu alte așezări. Pe măsură ce câștigi teren, poți începe chiar și proiecte mai mari, cum ar fi un port, astfel încât comerțul să devină mai ieftin, o primărie, astfel încât să putem ține evidența tuturor lucrurilor, sau chiar o universitate, astfel încât să poți începe să explorezi lumea din jurul nostru.",
                 "good_luck": "Construiește puternic!"
             },
             "e": {
@@ -420,7 +421,7 @@
             "welcome": "Bine ai venit, {{name}}!"
         },
         "sandbox": {
-            "description": "Modul Sandbox vă permite să construiți liber, fără constrângerile lumii multiplayer. Puteți salva progresul și îl puteți încărca mai târziu.",
+            "description": "Modul Sandbox îți permite să construiești liber, fără constrângerile lumii multiplayer. Ești doar tu și zero restricții de resurse. Poți salva progresul și îl poți încărca mai târziu.",
             "loadFromFile": "Încărcare din fișier",
             "loadTitle": "Încărcare Sandbox",
             "noSaves": "Nu s-au găsit salvări locale.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Deblochează la 1.000 de locuitori",
             "unlockHint100000": "Deblocați la 100.000 de locuitori",
             "unnamedCity": "Oraș fără nume"
+        },
+        "locked": {
+            "settleFirst": "Construiește mai întâi centrul orașului tău.",
+            "townHall": "Construiește o primărie pentru a debloca clasamentul global, alianțele și opțiunile.",
+            "university": "Construiește o universitate pentru a debloca expediții și cercetări.",
+            "market": "Construiește o piață sau un port pentru a debloca piața globală.",
+            "noBiomeAssets": "Nu există clădiri de acest tip disponibile în acest biom."
         }
     },
     "modals": {
@@ -627,7 +635,8 @@
             "Folosiți tasta Shift pentru a continua să plasați clădiri.",
             "Dacă întâmpinați probleme, vă rugăm să ne informați pe Discord.",
             "Unele clădiri pot fi amplasate numai în apropierea clădirii-mamă. De exemplu, ferăstrăul și tăietorul de lemne.",
-            "Nu toate resursele sunt ușor de obținut peste tot. Uneori, comerțul va fi mai ieftin decât producerea tuturor resurselor pe cont propriu."
+            "Nu toate resursele sunt ușor de obținut peste tot. Uneori, comerțul va fi mai ieftin decât producerea tuturor resurselor pe cont propriu.",
+            "O recenzie pe Steam ne ajută să găsim noi jucători care fac din acest joc o lume vie."
         ]
     },
     "tooltip": {

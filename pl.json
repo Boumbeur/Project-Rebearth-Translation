@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Usuń",
+        "deleting": "Usuwanie...",
         "loading": "Ładowanie..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Nasze terytorium rozciąga się tak daleko, jak sięga nasz wzrok. Jeśli widzimy dalej, nasze terytorium się powiększa.",
                 "windmill": "To niesamowite, że ktoś potrafił zamienić wiatr w pożywienie. To jedyny realny sposób, aby zamienić te twarde roślinne skały w mąkę do naszego miękkiego, pysznego chleba.",
                 "windmill_upgraded": "Dzięki tym dziwnym materiałom, które znaleźliśmy, na pewno uda nam się przyspieszyć działanie tego wiatraka. Im więcej ruchomych części, tym lepiej, prawda?",
-                "woodcutter": "Drwal będzie rąbał drewno. Jest w tym naprawdę dobry, ale wydaje się, że nie radzi sobie zbyt dobrze z goleniem.",
+                "woodcutter": "Drwal będzie rąbał drewno. Ile drewna? Tyle, ile drwal jest w stanie.",
                 "refinery": "Rafineria służy do przetwarzania dziwnych skał w błyszczące, plastyczne skały.",
                 "iron_mine": "Wykopaliśmy głęboki dół, ponieważ znaleźliśmy dziwne skały. Wyślijmy tam wszystkich naszych ludzi, aby je wydobyli. Co złego może się stać?",
                 "glassworks": "Glassworks pozwala produkować szkło z piasku, które może być wykorzystywane do różnych zaawansowanych zastosowań.",
@@ -378,7 +379,7 @@
             },
             "s": {
                 "message1": "To doskonały wybór, aby osiedlić się w tym skalistym biomie, gdzie możesz stać się jednym z ziemią. Znalezienie kamienia i rudy nie będzie tu żadnym problemem. Chociaż uprawa żywności może być nieco trudniejsza. Ale jestem pewien, że inni chętnie będą handlować twoimi bogatymi zasobami cennych materiałów.",
-                "message2": "Twoje możliwości są nadal ograniczone. Najpierw zadbaj o stały dopływ zasobów. Następnie zbuduj targowisko, aby móc handlować z innymi osadami. Gdy już zdobędziesz przyczółek, możesz nawet rozpocząć większe projekty, takie jak port, dzięki czemu handel stanie się tańszy, ratusz, dzięki czemu będziemy mogli śledzić wszystko, a nawet uniwersytet, dzięki czemu będziesz mógł zacząć odkrywać otaczający nas świat.",
+                "message2": "Twoje możliwości są nadal ograniczone. Najpierw zadbaj o stały dopływ zasobów. Następnie zbuduj targowisko, aby móc handlować z innymi osadami. Gdy już zdobędziesz przyczółek, możesz nawet rozpocząć większe projekty, takie jak port, dzięki czemu handel stanie się tańszy, ratusz, dzięki czemu będziemy mogli wszystko kontrolować, a nawet uniwersytet, dzięki czemu będziesz mógł zacząć odkrywać otaczający nas świat.",
                 "good_luck": "Buduj mocno!"
             },
             "e": {
@@ -420,7 +421,7 @@
             "welcome": "Witamy, {{name}}!"
         },
         "sandbox": {
-            "description": "Tryb piaskownicy pozwala na swobodne budowanie bez ograniczeń świata wieloosobowego. Możesz zapisać swoje postępy i wczytać je później.",
+            "description": "Tryb piaskownicy pozwala na swobodne budowanie bez ograniczeń świata wieloosobowego. Jesteś tylko ty i zero ograniczeń dotyczących zasobów. Możesz zapisać swoje postępy i wczytać je później.",
             "loadFromFile": "Wczytaj z pliku",
             "loadTitle": "Załaduj piaskownicę",
             "noSaves": "Nie znaleziono lokalnych zapisów.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Odblokuj przy 1000 mieszkańców",
             "unlockHint100000": "Odblokuj przy 100 tys. mieszkańców",
             "unnamedCity": "Miasto bez nazwy"
+        },
+        "locked": {
+            "settleFirst": "Najpierw zbuduj centrum swojego miasta.",
+            "townHall": "Zbuduj ratusz, aby odblokować globalny ranking, sojusze i opcje wyboru.",
+            "university": "Zbuduj uniwersytet, aby odblokować wyprawy i badania.",
+            "market": "Zbuduj rynek lub port, aby odblokować rynek globalny.",
+            "noBiomeAssets": "W tym biomie nie ma budynków tego typu."
         }
     },
     "modals": {
@@ -627,7 +635,8 @@
             "Użyj klawisza Shift, aby kontynuować umieszczanie budynków.",
             "Jeśli napotkasz jakiekolwiek problemy, poinformuj nas o tym na Discordzie.",
             "Niektóre budynki można umieścić tylko w pobliżu budynku nadrzędnego. Na przykład piła i drwal.",
-            "Nie wszystkie zasoby są łatwo dostępne wszędzie. Czasami handel będzie tańszy niż samodzielna produkcja wszystkich zasobów."
+            "Nie wszystkie zasoby są łatwo dostępne wszędzie. Czasami handel będzie tańszy niż samodzielna produkcja wszystkich zasobów.",
+            "Recenzje na Steamie pomagają nam znaleźć nowych graczy, którzy sprawiają, że ten świat jest żywy."
         ]
     },
     "tooltip": {

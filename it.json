@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Elimina",
+        "deleting": "Eliminazione...",
         "loading": "Caricamento in corso..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Il nostro territorio è grande quanto il nostro campo visivo. Se riusciamo a vedere più lontano, il nostro territorio si espande ulteriormente.",
                 "windmill": "È incredibile come qualcuno sia riuscito a trasformare il vento in cibo. È l'unico modo possibile per trasformare quelle dure rocce vegetali in farina per il nostro morbido e delizioso pane.",
                 "windmill_upgraded": "Con questi strani materiali che abbiamo trovato, sono sicuro che potremo far funzionare questo mulino a vento ancora più velocemente. Più parti mobili ci sono, meglio è, giusto?",
-                "woodcutter": "Il boscaiolo taglierà la legna. È molto bravo in questo, ma sembra non essere molto bravo a radersi.",
+                "woodcutter": "Il boscaiolo taglierà la legna. Quanta legna? Quanta ne può tagliare un boscaiolo.",
                 "refinery": "La raffineria viene utilizzata per raffinare rocce strane in rocce lucide e malleabili.",
                 "iron_mine": "Abbiamo scavato una buca profonda perché abbiamo trovato delle rocce strane. Mandiamo lì tutta la nostra gente a prenderle. Che cosa potrà mai succedere di male?",
                 "glassworks": "Glassworks consente di produrre vetro dalla sabbia, che può essere utilizzato per varie applicazioni avanzate.",
@@ -420,7 +421,7 @@
             "welcome": "Benvenuto, {{name}}!"
         },
         "sandbox": {
-            "description": "La modalità Sandbox ti consente di costruire liberamente senza i vincoli del mondo multiplayer. Puoi salvare i tuoi progressi e caricarli in un secondo momento.",
+            "description": "La modalità Sandbox ti consente di costruire liberamente senza i vincoli del mondo multiplayer. Ci sei solo tu e nessuna restrizione sulle risorse. Puoi salvare i tuoi progressi e caricarli in un secondo momento.",
             "loadFromFile": "Carica da file",
             "loadTitle": "Carica Sandbox",
             "noSaves": "Nessun salvataggio locale trovato.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Sblocca a 1.000 abitanti",
             "unlockHint100000": "Sblocca a 100.000 abitanti",
             "unnamedCity": "Città senza nome"
+        },
+        "locked": {
+            "settleFirst": "Costruisci prima il centro della tua città.",
+            "townHall": "Costruisci un municipio per sbloccare la classifica globale, le alleanze e le scelte.",
+            "university": "Costruisci un'università per sbloccare spedizioni e ricerche.",
+            "market": "Costruisci un mercato o un porto per sbloccare il mercato globale.",
+            "noBiomeAssets": "Nessun edificio di questo tipo disponibile in questo bioma."
         }
     },
     "modals": {
@@ -621,13 +629,14 @@
     },
     "tips": {
         "loading": [
-            "Un giorno nel gioco corrisponde a un giorno nella vita reale. Prenditi il tempo necessario e fai crescere la tua città al tuo ritmo.",
+            "Un giorno nel gioco corrisponde a un giorno nella vita reale. Prenditi il tempo necessario e fai crescere la tua città secondo i tuoi ritmi.",
             "È possibile ruotare gli edifici prima di posizionarli utilizzando i tasti Q ed E.",
             "Fai doppio clic nell'editor delle forme per posizionare i nodi.",
             "Utilizza il tasto Maiusc per continuare a posizionare gli edifici.",
             "Se riscontri qualche problema, ti preghiamo di segnalarlo su Discord.",
             "Alcuni edifici possono essere posizionati solo vicino all'edificio principale. Come la sega e il taglialegna.",
-            "Non tutte le risorse sono facili da ottenere ovunque. A volte commerciare sarà più economico che produrre tutto da soli."
+            "Non tutte le risorse sono facili da ottenere ovunque. A volte commerciare sarà più economico che produrre tutto da soli.",
+            "Una recensione su Steam ci aiuta a trovare nuovi giocatori che rendono questo mondo vivo."
         ]
     },
     "tooltip": {

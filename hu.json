@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Törlés",
+        "deleting": "Törlés...",
         "loading": "Betöltés..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Területünk addig terjed, ameddig látunk. Ha tovább látunk, területünk tovább növekszik.",
                 "windmill": "Őrület, hogy valaki képes volt a szélből ételt készíteni. Ez az egyetlen megvalósítható módja annak, hogy azokból a kemény növényi kövekből lisztet készítsünk a puha, finom kenyerünkhöz.",
                 "windmill_upgraded": "Azokkal a furcsa anyagokkal, amiket találtunk, biztosan még gyorsabbá tudjuk tenni ezt a szélmalmot. Minél több mozgó alkatrész van, annál jobb, nem igaz?",
-                "woodcutter": "A favágó fát fog vágni. Ebben nagyon jók, de úgy tűnik, hogy a borotválkozásban nem annyira.",
+                "woodcutter": "A favágó fát fog vágni. Mennyi fát? Amennyit egy favágó tud.",
                 "refinery": "A finomítóban furcsa köveket finomítanak fényes, képlékeny kövekké.",
                 "iron_mine": "Mély gödröt ástunk, mert furcsa köveket találtunk. Küldjük oda az összes emberünket, hogy szedjék össze őket. Mi a legrosszabb, ami történhet?",
                 "glassworks": "A Glassworks lehetővé teszi, hogy homokból üveget állítson elő, amely számos fejlett alkalmazáshoz felhasználható.",
@@ -373,12 +374,12 @@
         "based": {
             "w": {
                 "message1": "Jó választás! Egy buja fákkal és vadállatokkal teli ökoszisztémában telepedett le. Itt nem lesz gond a fa és az erőforrások beszerzése. Bár a bonyolultabb anyagok és ércek beszerzése kissé nehezebb lehet. De bízom Önben, és meg fogja látni, hogy semmi sem lehetetlen.",
-                "message2": "Képességeid még mindig korlátozottak. Először gondoskodj a folyamatos erőforrás-ellátásról. Ezután építs piacot, hogy más településekkel is kereskedhess. Ahogy megveted a lábad, akár nagyobb projektekbe is belevághatsz, például kikötő építésébe, hogy olcsóbbá váljon a kereskedelem, városháza építésébe, hogy mindent nyomon tudj követni, vagy akár egyetem építésébe, hogy elkezdhesd felfedezni a körülöttünk lévő világot.",
+                "message2": "Képességeid még mindig korlátozottak. Először gondoskodj a folyamatos erőforrás-ellátásról. Ezután építs piacot, hogy más településekkel is kereskedhess. Ahogy megerősödsz, akár nagyobb projektekbe is belevághatsz, például kikötő építésébe, hogy olcsóbbá váljon a kereskedelem, városháza építésébe, hogy mindent nyomon tudj követni, vagy akár egyetem építésébe, hogy elkezdhess felfedezni a körülöttünk lévő világot.",
                 "good_luck": "Meg tudod csinálni!"
             },
             "s": {
                 "message1": "Erős választás, hogy letelepedj ebben a sziklás biomban, ahol eggyé válhatsz a földdel. Kő és érc megtalálása itt nem jelent problémát. Az élelmiszer termesztése viszont kissé nehezebb lehet. De biztos vagyok benne, hogy mások szívesen cserélnek majd a te drága anyagaidra.",
-                "message2": "Képességeid még mindig korlátozottak. Először gondoskodj a folyamatos erőforrás-ellátásról. Ezután építs piacot, hogy más településekkel is kereskedhess. Ahogy megveted a lábad, akár nagyobb projektekbe is belevághatsz, például kikötő építésébe, hogy olcsóbbá váljon a kereskedelem, városháza építésébe, hogy mindent nyomon tudj követni, vagy akár egyetem építésébe, hogy elkezdhesd felfedezni a körülöttünk lévő világot.",
+                "message2": "Képességeid még mindig korlátozottak. Először gondoskodj a folyamatos erőforrás-ellátásról. Ezután építs piacot, hogy más településekkel is kereskedhess. Ahogy megerősödsz, akár nagyobb projektekbe is belevághatsz, például kikötő építésébe, hogy olcsóbbá váljon a kereskedelem, városháza építésébe, hogy mindent nyomon tudj követni, vagy akár egyetem építésébe, hogy elkezdhess felfedezni a körülöttünk lévő világot.",
                 "good_luck": "Építsd meg erősen!"
             },
             "e": {
@@ -420,7 +421,7 @@
             "welcome": "Üdvözöljük, {{name}}!"
         },
         "sandbox": {
-            "description": "A Sandbox mód lehetővé teszi, hogy szabadon építs, a többjátékos világ korlátai nélkül. Elmentheted az előrehaladásodat, és később betöltheted.",
+            "description": "A Sandbox mód lehetővé teszi, hogy szabadon építs, a többjátékos világ korlátai nélkül. Csak te vagy és nulla erőforrás-korlátozás. Elmentheted az előrehaladásodat, és később betöltheted.",
             "loadFromFile": "Betöltés fájlból",
             "loadTitle": "Sandbox betöltése",
             "noSaves": "Nincs helyi mentés.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "1000 lakos elérése esetén feloldható",
             "unlockHint100000": "100 000 lakos elérése esetén feloldható",
             "unnamedCity": "Névtelen város"
+        },
+        "locked": {
+            "settleFirst": "Először építsd meg a városod központját.",
+            "townHall": "Építs egy városházát, hogy feloldd a globális rangsort, a szövetségeket és a választási lehetőségeket.",
+            "university": "Építs egyetemet, hogy feloldd a expedíciókat és a kutatásokat.",
+            "market": "Építs piacot vagy kikötőt, hogy megnyisd a globális piacot.",
+            "noBiomeAssets": "Ebben a biomban nincs ilyen típusú épület."
         }
     },
     "modals": {
@@ -621,13 +629,14 @@
     },
     "tips": {
         "loading": [
-            "A játékban eltöltött egy nap a valós életben is egy napnak felel meg. Ne siess, és a saját tempódban építsd fel városodat.",
+            "A játékban eltöltött egy nap a valós életben is egy napot jelent. Ne siess, és a saját tempódban építsd fel városodat.",
             "A Q és E billentyűkkel elforgathatja az épületeket, mielőtt elhelyezi őket.",
             "Kattintson duplán a forma szerkesztőben a csomópontok elhelyezéséhez.",
             "A Shift billentyűvel folytathatod az épületek elhelyezését.",
             "Ha bármilyen problémát tapasztalsz, kérjük, jelezd nekünk a Discordon.",
             "Egyes épületek csak a szülőépület közelében helyezhetők el. Például a fűrész és a favágó.",
-            "Nem minden erőforrás könnyen beszerezhető mindenhol. Néha a kereskedelem olcsóbb, mint mindent magadnak előállítani."
+            "Nem minden erőforrás könnyen beszerezhető mindenhol. Néha a kereskedelem olcsóbb, mint mindent magadnak előállítani.",
+            "A Steam-en írt vélemények segítenek nekünk új játékosokat találni, akik élettel töltik meg ezt a világot."
         ]
     },
     "tooltip": {

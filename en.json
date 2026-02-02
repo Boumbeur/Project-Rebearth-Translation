@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Delete",
+        "deleting": "Deleting...",
         "loading": "Loading..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Our territory is as far as we can see. If we can see further, our territory increases further.",
                 "windmill": "Crazy how someone was able to turn the wind into food. Its the only feasible way to turn those hard plant rocks into flour for our soft delicious bread.",
                 "windmill_upgraded": "With these weird materials we find, I'm sure we can make this windmill work even faster. The more moving parts the better, right?",
-                "woodcutter": "The woodcutter will cut wood. They are really good at it, but seems to be bad at shaving.",
+                "woodcutter": "The woodcutter will cut wood. How much wood? as much as a woodcutter could.",
                 "refinery": "The refinery is used to refine weird rocks into shiny malleable rocks.",
                 "iron_mine": "We made a deep pit, because we found some weird rocks. Let's send all of our people in there to go get them. Whats the worse that can happen.",
                 "glassworks": "Glassworks allows you to produce glass from sand, which can be used for various advanced applications.",
@@ -420,7 +421,7 @@
             "welcome": "Welcome, {{name}}!"
         },
         "sandbox": {
-            "description": "Sandbox mode allows you to build freely without the constraints of the multiplayer world. You can save your progress and load it later.",
+            "description": "Sandbox mode allows you to build freely without the constraints of the multiplayer world. It is just you and zero resource restrictions. You can save your progress and load it later.",
             "loadFromFile": "Load from File",
             "loadTitle": "Load Sandbox",
             "noSaves": "No local saves found.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Unlock at 1K inhabitants",
             "unlockHint100000": "Unlock at 100K inhabitants",
             "unnamedCity": "Unnamed City"
+        },
+        "locked": {
+            "settleFirst": "Go build your town's center first.",
+            "townHall": "Build a Town Hall to unlock global ranking, alliances and choices",
+            "university": "Build a University to unlock expeditions and research.",
+            "market": "Build a Market or Port to unlock the global market.",
+            "noBiomeAssets": "No buildings of this kind available in this biome."
         }
     },
     "modals": {
@@ -621,13 +629,14 @@
     },
     "tips": {
         "loading": [
-            "A day in-game lasts a day in real life. Take your time and grown your city at your pace.",
+            "A day in-game lasts a day in real life. Take your time and grow your city at your pace.",
             "You can rotate buildings before placing them by using the Q and E key.",
             "Double click in the shape editor to place nodes.",
             "Use the shift key to keep placing buildings.",
             "If you encounter any issues, please let us know on Discord.",
             "Some buildings can only be placed close the parent building. Like the saw and the woodcutter.",
-            "Not all resources are easy to get everywhere. Sometimes trading will be cheaper than producing everything yourself."
+            "Not all resources are easy to get everywhere. Sometimes trading will be cheaper than producing everything yourself.",
+            "A review on Steam helps us find new players that make this a living world."
         ]
     },
     "tooltip": {

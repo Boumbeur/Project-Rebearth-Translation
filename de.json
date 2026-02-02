@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Löschen",
+        "deleting": "Löschen...",
         "loading": "Wird geladen..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Unser Territorium erstreckt sich so weit, wie wir sehen können. Wenn wir weiter sehen können, vergrößert sich unser Territorium entsprechend.",
                 "windmill": "Verrückt, wie jemand den Wind in Nahrung verwandeln konnte. Es ist die einzige Möglichkeit, diese harten Pflanzensteine in Mehl für unser weiches, leckeres Brot zu verwandeln.",
                 "windmill_upgraded": "Mit diesen seltsamen Materialien, die wir finden, können wir diese Windmühle sicher noch schneller machen. Je mehr bewegliche Teile, desto besser, oder?",
-                "woodcutter": "Der Holzfäller wird Holz hacken. Er ist wirklich gut darin, scheint aber schlecht im Rasieren zu sein.",
+                "woodcutter": "Der Holzfäller wird Holz hacken. Wie viel Holz? So viel, wie ein Holzfäller hacken kann.",
                 "refinery": "Die Raffinerie wird verwendet, um seltsame Steine zu glänzenden, formbaren Steinen zu verarbeiten.",
                 "iron_mine": "Wir haben eine tiefe Grube gegraben, weil wir seltsame Steine gefunden haben. Schicken wir alle unsere Leute dorthin, um sie zu holen. Was kann schon Schlimmes passieren?",
                 "glassworks": "Mit Glassworks können Sie aus Sand Glas herstellen, das für verschiedene fortgeschrittene Anwendungen verwendet werden kann.",
@@ -420,7 +421,7 @@
             "welcome": "Willkommen, {{name}}!"
         },
         "sandbox": {
-            "description": "Im Sandbox-Modus können Sie frei bauen, ohne den Einschränkungen der Multiplayer-Welt zu unterliegen. Sie können Ihren Fortschritt speichern und später wieder laden.",
+            "description": "Im Sandbox-Modus kannst du frei bauen, ohne die Einschränkungen der Multiplayer-Welt. Es gibt nur dich und keine Ressourcenbeschränkungen. Du kannst deinen Fortschritt speichern und später wieder laden.",
             "loadFromFile": "Aus Datei laden",
             "loadTitle": "Sandbox laden",
             "noSaves": "Keine lokalen Speicherstände gefunden.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Freischalten bei 1.000 Einwohnern",
             "unlockHint100000": "Freischalten bei 100.000 Einwohnern",
             "unnamedCity": "Unbenannte Stadt"
+        },
+        "locked": {
+            "settleFirst": "Baue zuerst das Zentrum deiner Stadt.",
+            "townHall": "Baue ein Rathaus, um globale Ranglisten, Allianzen und Auswahlmöglichkeiten freizuschalten.",
+            "university": "Baue eine Universität, um Expeditionen und Forschungen freizuschalten.",
+            "market": "Errichte einen Markt oder Hafen, um den globalen Markt freizuschalten.",
+            "noBiomeAssets": "In diesem Biom sind keine Gebäude dieser Art verfügbar."
         }
     },
     "modals": {
@@ -627,7 +635,8 @@
             "Verwenden Sie die Umschalttaste, um weiterhin Gebäude zu platzieren.",
             "Wenn Sie Probleme haben, teilen Sie uns dies bitte auf Discord mit.",
             "Einige Gebäude können nur in der Nähe des übergeordneten Gebäudes platziert werden. Wie beispielsweise die Säge und der Holzfäller.",
-            "Nicht alle Ressourcen sind überall leicht zu bekommen. Manchmal ist es günstiger, zu handeln, als alles selbst zu produzieren."
+            "Nicht alle Ressourcen sind überall leicht zu bekommen. Manchmal ist es günstiger, zu handeln, als alles selbst zu produzieren.",
+            "Eine Rezension auf Steam hilft uns dabei, neue Spieler zu finden, die diese Welt lebendig machen."
         ]
     },
     "tooltip": {

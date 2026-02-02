@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Xóa",
+        "deleting": "Xóa...",
         "loading": "Đang tải..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Lãnh thổ của chúng ta trải dài đến tận nơi chúng ta có thể nhìn thấy. Nếu chúng ta có thể nhìn xa hơn, lãnh thổ của chúng ta sẽ mở rộng thêm.",
                 "windmill": "Thật điên rồ khi ai đó có thể biến gió thành thức ăn. Đó là cách duy nhất khả thi để biến những tảng đá thực vật cứng đó thành bột mì cho bánh mì mềm ngon của chúng ta.",
                 "windmill_upgraded": "Với những vật liệu kỳ lạ này, tôi chắc chắn chúng ta có thể làm cho cối xay gió này hoạt động nhanh hơn nữa. Càng nhiều bộ phận chuyển động càng tốt, đúng không?",
-                "woodcutter": "Người thợ chặt gỗ sẽ chặt gỗ. Họ rất giỏi trong việc đó, nhưng dường như không giỏi trong việc cạo râu.",
+                "woodcutter": "Người thợ chặt gỗ sẽ chặt gỗ. Bao nhiêu gỗ? Nhiều như một người thợ chặt gỗ có thể chặt.",
                 "refinery": "Nhà máy lọc dầu được sử dụng để tinh chế các loại đá kỳ lạ thành các loại đá sáng bóng và dẻo dai.",
                 "iron_mine": "Chúng ta đã đào một hố sâu, vì chúng ta phát hiện ra một số tảng đá kỳ lạ. Hãy gửi tất cả mọi người vào đó để lấy chúng. Điều tồi tệ nhất có thể xảy ra là gì?",
                 "glassworks": "Glassworks cho phép bạn sản xuất kính từ cát, có thể được sử dụng cho các ứng dụng tiên tiến khác nhau.",
@@ -378,7 +379,7 @@
             },
             "s": {
                 "message1": "Lựa chọn tuyệt vời để định cư tại sinh cảnh đá này, nơi bạn có thể hòa mình vào thiên nhiên. Việc tìm kiếm đá và quặng sẽ không phải là vấn đề ở đây. Tuy nhiên, việc trồng trọt thực phẩm có thể hơi khó khăn. Nhưng tôi chắc chắn rằng những người khác sẽ sẵn lòng trao đổi với bạn để có được nguồn tài nguyên quý giá dồi dào của bạn.",
-                "message2": "Khả năng của bạn vẫn còn hạn chế. Hãy đảm bảo có nguồn tài nguyên ổn định trước tiên. Sau đó, xây dựng một thị trường để có thể giao dịch với các khu định cư khác. Khi đã có nền tảng vững chắc, bạn có thể bắt đầu các dự án lớn hơn như cảng biển để giao dịch trở nên rẻ hơn, tòa thị chính để theo dõi mọi thứ, hoặc thậm chí là trường đại học để bắt đầu khám phá thế giới xung quanh.",
+                "message2": "Khả năng của bạn vẫn còn hạn chế. Hãy đảm bảo có nguồn tài nguyên ổn định trước tiên. Sau đó, xây dựng một thị trường để có thể giao dịch với các khu định cư khác. Khi đã có vị thế vững chắc, bạn có thể bắt đầu các dự án lớn hơn như cảng biển để giao dịch trở nên rẻ hơn, tòa thị chính để theo dõi mọi thứ, hoặc thậm chí là trường đại học để bắt đầu khám phá thế giới xung quanh.",
                 "good_luck": "Xây dựng mạnh mẽ!"
             },
             "e": {
@@ -420,7 +421,7 @@
             "welcome": "Chào mừng, {{name}}!"
         },
         "sandbox": {
-            "description": "Chế độ Sandbox cho phép bạn xây dựng tự do mà không bị giới hạn bởi thế giới đa người chơi. Bạn có thể lưu tiến trình và tải lại sau này.",
+            "description": "Chế độ Sandbox cho phép bạn xây dựng tự do mà không bị giới hạn bởi thế giới đa người chơi. Chỉ có bạn và không có giới hạn tài nguyên. Bạn có thể lưu tiến trình và tải lại sau này.",
             "loadFromFile": "Tải từ tệp",
             "loadTitle": "Tải Sandbox",
             "noSaves": "Không tìm thấy tệp lưu trữ cục bộ.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Mở khóa khi đạt 1.000 cư dân.",
             "unlockHint100000": "Mở khóa khi đạt 100.000 cư dân.",
             "unnamedCity": "Thành phố không tên"
+        },
+        "locked": {
+            "settleFirst": "Hãy xây dựng trung tâm thành phố của bạn trước tiên.",
+            "townHall": "Xây dựng Tòa thị chính để mở khóa bảng xếp hạng toàn cầu, liên minh và các lựa chọn.",
+            "university": "Xây dựng một trường đại học để mở khóa các cuộc thám hiểm và nghiên cứu.",
+            "market": "Xây dựng Thị trường hoặc Cảng để mở khóa thị trường toàn cầu.",
+            "noBiomeAssets": "Không có công trình loại này trong sinh cảnh này."
         }
     },
     "modals": {
@@ -627,7 +635,8 @@
             "Sử dụng phím Shift để tiếp tục đặt các công trình.",
             "Nếu bạn gặp bất kỳ vấn đề nào, vui lòng thông báo cho chúng tôi trên Discord.",
             "Một số công trình chỉ có thể được đặt gần công trình cha. Ví dụ như cưa và thợ chặt gỗ.",
-            "Không phải tất cả các tài nguyên đều dễ dàng có được ở mọi nơi. Đôi khi việc giao dịch sẽ rẻ hơn so với việc tự sản xuất mọi thứ."
+            "Không phải tất cả các tài nguyên đều dễ dàng có được ở mọi nơi. Đôi khi việc giao dịch sẽ rẻ hơn so với việc tự sản xuất mọi thứ.",
+            "Một đánh giá trên Steam giúp chúng tôi tìm kiếm người chơi mới, biến thế giới này thành một thế giới sống động."
         ]
     },
     "tooltip": {

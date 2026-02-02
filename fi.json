@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Poista",
+        "deleting": "Poistetaan...",
         "loading": "Lataus..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Meidän alueemme on niin laaja kuin näemme. Jos näemme kauemmas, alueemme kasvaa entisestään.",
                 "windmill": "Hullunmielistä, miten joku pystyi muuttamaan tuulen ruoaksi. Se on ainoa toteuttamiskelpoinen tapa muuttaa ne kovat kasvikivet jauhoiksi pehmeää, herkullista leipää varten.",
                 "windmill_upgraded": "Näiden outojen materiaalien avulla voimme varmasti saada tämän tuulimyllyn toimimaan vielä nopeammin. Mitä enemmän liikkuvia osia, sitä parempi, eikö?",
-                "woodcutter": "Puunkorjaaja hakkaa puuta. He ovat siinä todella hyviä, mutta näyttävät olevan huonoja höyläämisessä.",
+                "woodcutter": "Puunkorjaaja hakkaa puuta. Kuinka paljon puuta? Niin paljon kuin puunkorjaaja voi.",
                 "refinery": "Jalostamoa käytetään jalostamaan outoja kiviä kiiltäviksi, muokattaviksi kiviksi.",
                 "iron_mine": "Teimme syvän kuopan, koska löysimme outoja kiviä. Lähetetään kaikki väkemme sinne hakemaan ne. Mikä pahinta voisi tapahtua?",
                 "glassworks": "Glassworksin avulla voit valmistaa hiekasta lasia, jota voidaan käyttää erilaisissa edistyneissä sovelluksissa.",
@@ -420,7 +421,7 @@
             "welcome": "Tervetuloa, {{name}}!"
         },
         "sandbox": {
-            "description": "Sandbox-tilassa voit rakentaa vapaasti ilman moninpelimaailman rajoituksia. Voit tallentaa edistymisesi ja ladata sen myöhemmin.",
+            "description": "Sandbox-tilassa voit rakentaa vapaasti ilman moninpelimaailman rajoituksia. Olet yksin ja resurssirajoituksia ei ole. Voit tallentaa edistymisesi ja ladata sen myöhemmin.",
             "loadFromFile": "Lataa tiedostosta",
             "loadTitle": "Lataa Sandbox",
             "noSaves": "Paikallisia tallennuksia ei löytynyt.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Avaa 1 000 asukkaan kohdalla",
             "unlockHint100000": "Avaa 100 000 asukkaan rajalla",
             "unnamedCity": "Nimetön kaupunki"
+        },
+        "locked": {
+            "settleFirst": "Rakenna ensin kaupunkisi keskusta.",
+            "townHall": "Rakenna kaupungintalo avataksesi globaalin rankingin, liittoutumat ja valinnat.",
+            "university": "Rakenna yliopisto avataksesi tutkimusmatkat ja tutkimuksen.",
+            "market": "Rakenna markkinapaikka tai satama avataksesi globaalin markkinan.",
+            "noBiomeAssets": "Tämän tyyppisiä rakennuksia ei ole saatavilla tässä biomassa."
         }
     },
     "modals": {
@@ -627,7 +635,8 @@
             "Käytä shift-näppäintä rakennusten sijoittamiseen.",
             "Jos kohtaat ongelmia, ilmoita siitä meille Discordissa.",
             "Jotkut rakennukset voidaan sijoittaa vain lähellä emorakennusta. Kuten saha ja puunhakkuukone.",
-            "Kaikkia resursseja ei ole helppo hankkia kaikkialta. Joskus kauppa on halvempaa kuin kaiken tuottaminen itse."
+            "Kaikkia resursseja ei ole helppo hankkia kaikkialta. Joskus kauppa on halvempaa kuin kaiken tuottaminen itse.",
+            "Steam-palvelussa julkaistu arvostelu auttaa meitä löytämään uusia pelaajia, jotka tekevät tästä elävän maailman."
         ]
     },
     "tooltip": {

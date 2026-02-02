@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Sil",
+        "deleting": "Siliniyor...",
         "loading": "Yükleniyor..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Bölgemiz, görebildiğimiz kadar uzanır. Daha uzağı görebilirsek, bölgemiz daha da genişler.",
                 "windmill": "Birinin rüzgarı yiyeceğe dönüştürebilmesi ne kadar çılgınca. Bu sert bitki kayalarını yumuşak ve lezzetli ekmeğimiz için un haline getirmenin tek mümkün yolu bu.",
                 "windmill_upgraded": "Bulduğumuz bu garip malzemelerle, bu yel değirmenini daha hızlı çalıştırabileceğimizden eminim. Hareketli parçalar ne kadar fazla olursa o kadar iyi, değil mi?",
-                "woodcutter": "Oduncu odun kesecektir. Bu işte gerçekten çok iyidirler, ancak tıraş olmada pek iyi değiller gibi görünüyor.",
+                "woodcutter": "Oduncu odun kesecek. Ne kadar odun? Bir oduncunun kesebileceği kadar.",
                 "refinery": "Rafineri, garip kayaları parlak ve şekillendirilebilir kayalara dönüştürmek için kullanılır.",
                 "iron_mine": "Garip kayalar bulduğumuz için derin bir çukur kazdık. Bütün adamlarımızı oraya gönderip onları alalım. En kötü ne olabilir ki?",
                 "glassworks": "Glassworks, çeşitli gelişmiş uygulamalar için kullanılabilen camı kumdan üretmenizi sağlar.",
@@ -373,12 +374,12 @@
         "based": {
             "w": {
                 "message1": "İyi seçim! Yemyeşil ağaçlar ve vahşi yaşamla dolu bir biyomda yerleştiniz. Burada odun bulmak ve kaynak toplamak sorun olmayacak. Ancak daha karmaşık malzemeler ve cevherler bulmak biraz daha zor olabilir. Ama size inanıyorum ve hiçbir şeyin imkansız olmadığını göreceksiniz.",
-                "message2": "Yetenekleriniz hala sınırlı. Öncelikle kaynak akışının düzenli olmasını sağlayın. Ardından diğer yerleşim yerleriyle ticaret yapabilmek için bir pazar kurun. Ayağınızı yere sağlam bastıktan sonra, ticaretin daha ucuz hale gelmesi için bir liman, her şeyi takip edebilmek için bir belediye binası, hatta çevremizdeki dünyayı keşfetmeye başlayabilmek için bir üniversite gibi daha büyük projeler başlatabilirsiniz.",
+                "message2": "Yetenekleriniz hala sınırlı. Öncelikle kaynak akışının düzenli olmasını sağlayın. Ardından diğer yerleşim yerleriyle ticaret yapabilmek için bir pazar kurun. Bir yer edindiğinizde, ticaretin daha ucuz hale gelmesi için liman, her şeyi takip edebilmek için belediye binası, hatta çevremizdeki dünyayı keşfetmeye başlayabilmek için üniversite gibi daha büyük projeler başlatabilirsiniz.",
                 "good_luck": "Başarabilirsiniz!"
             },
             "s": {
                 "message1": "Toprakla bütünleşebileceğiniz bu kayalık biyomda yerleşmek için mükemmel bir seçim. Burada taş ve maden bulmak hiç sorun olmayacak. Ancak yiyecek yetiştirmek biraz daha zor olabilir. Ama eminim diğerleri, sahip olduğunuz değerli malzemelerle memnuniyetle takas yapacaklardır.",
-                "message2": "Yetenekleriniz hala sınırlıdır. Öncelikle kaynak akışının istikrarlı olmasını sağlayın. Ardından diğer yerleşim yerleriyle ticaret yapabilmek için bir pazar kurun. Bir yer edindikten sonra, ticareti daha ucuz hale getirmek için bir liman, her şeyi takip edebilmek için bir belediye binası, hatta çevremizi keşfetmeye başlayabilmek için bir üniversite gibi daha büyük projeler başlatabilirsiniz.",
+                "message2": "Yetenekleriniz hala sınırlı. Öncelikle kaynak akışının düzenli olmasını sağlayın. Ardından diğer yerleşim yerleriyle ticaret yapabilmek için bir pazar kurun. Bir yer edindiğinizde, ticaretin daha ucuz hale gelmesi için liman, her şeyi takip edebilmek için belediye binası, hatta çevremizdeki dünyayı keşfetmeye başlayabilmek için üniversite gibi daha büyük projeler başlatabilirsiniz.",
                 "good_luck": "Güçlü olun!"
             },
             "e": {
@@ -420,7 +421,7 @@
             "welcome": "{{name}}'a hoş geldiniz!"
         },
         "sandbox": {
-            "description": "Sandbox modu, çok oyunculu dünyanın kısıtlamaları olmadan özgürce inşa etmenizi sağlar. İlerlemenizi kaydedebilir ve daha sonra yükleyebilirsiniz.",
+            "description": "Sandbox modu, çok oyunculu dünyanın kısıtlamaları olmadan özgürce inşa etmenizi sağlar. Sadece siz ve sıfır kaynak kısıtlaması vardır. İlerlemenizi kaydedebilir ve daha sonra yükleyebilirsiniz.",
             "loadFromFile": "Dosyadan yükle",
             "loadTitle": "Sandbox'ı yükle",
             "noSaves": "Yerel kaydetme bulunamadı.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "1000 nüfusa ulaşıldığında kilit açılır.",
             "unlockHint100000": "100.000 nüfusa ulaşıldığında kilidi açılır.",
             "unnamedCity": "İsimsiz Şehir"
+        },
+        "locked": {
+            "settleFirst": "Önce şehrinizin merkezini inşa edin.",
+            "townHall": "Küresel sıralamayı, ittifakları ve seçenekleri açmak için bir Belediye Binası inşa edin.",
+            "university": "Keşifleri ve araştırmaları açmak için bir üniversite kurun.",
+            "market": "Küresel pazarı açmak için bir Pazar veya Liman inşa edin.",
+            "noBiomeAssets": "Bu biyomda bu tür binalar mevcut değildir."
         }
     },
     "modals": {
@@ -621,13 +629,14 @@
     },
     "tips": {
         "loading": [
-            "Oyundaki bir gün, gerçek hayatta bir gün sürer. Acele etmeyin ve kendi hızınızda şehrinizi büyütün.",
+            "Oyundaki bir gün, gerçek hayattaki bir gün kadar sürer. Acele etmeyin ve kendi hızınızda şehrinizi büyütün.",
             "Q ve E tuşlarını kullanarak binaları yerleştirmeden önce döndürebilirsiniz.",
             "Şekil düzenleyicide çift tıklayarak düğümleri yerleştirin.",
             "Shift tuşunu kullanarak binaları yerleştirmeye devam edin.",
             "Herhangi bir sorunla karşılaşırsanız, lütfen Discord üzerinden bize bildirin.",
             "Bazı binalar sadece ana binanın yakınına yerleştirilebilir. Testere ve oduncu gibi.",
-            "Tüm kaynaklar her yerde kolayca elde edilemez. Bazen ticaret, her şeyi kendiniz üretmekten daha ucuz olabilir."
+            "Tüm kaynaklar her yerde kolayca elde edilemez. Bazen ticaret, her şeyi kendiniz üretmekten daha ucuz olabilir.",
+            "Steam'deki yorumlar, bu oyunu canlı bir dünya haline getiren yeni oyuncular bulmamıza yardımcı oluyor."
         ]
     },
     "tooltip": {

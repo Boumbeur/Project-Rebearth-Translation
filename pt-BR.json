@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Excluir",
+        "deleting": "Excluindo...",
         "loading": "Carregando..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Nosso território se estende até onde nossos olhos alcançam. Se pudermos enxergar mais longe, nosso território se ampliará ainda mais.",
                 "windmill": "É incrível como alguém conseguiu transformar o vento em alimento. É a única maneira viável de transformar essas rochas vegetais duras em farinha para o nosso pão macio e delicioso.",
                 "windmill_upgraded": "Com esses materiais estranhos que encontramos, tenho certeza de que podemos fazer este moinho funcionar ainda mais rápido. Quanto mais peças móveis, melhor, certo?",
-                "woodcutter": "O lenhador cortará madeira. Eles são muito bons nisso, mas parecem ser ruins em raspar.",
+                "woodcutter": "O lenhador cortará madeira. Quanta madeira? Tanta quanto um lenhador conseguir.",
                 "refinery": "A refinaria é usada para refinar rochas estranhas e transformá-las em rochas brilhantes e maleáveis.",
                 "iron_mine": "Fizemos um buraco profundo, porque encontramos algumas rochas estranhas. Vamos enviar todo o nosso pessoal para lá para as recolher. O que é que pode acontecer de pior?",
                 "glassworks": "A Glassworks permite produzir vidro a partir de areia, que pode ser usado para várias aplicações avançadas.",
@@ -373,12 +374,12 @@
         "based": {
             "w": {
                 "message1": "Boa escolha! Você se estabeleceu em um bioma repleto de árvores exuberantes e vida selvagem. Encontrar madeira e coletar recursos não será problema aqui. Embora materiais e minérios mais complexos possam ser um pouco mais difíceis de encontrar. Mas acredito em você e você verá que nada é impossível.",
-                "message2": "Suas capacidades ainda são limitadas. Certifique-se de obter um fluxo constante de recursos primeiro. Em seguida, construa um mercado para poder negociar com outros assentamentos. À medida que você ganha espaço, pode até iniciar projetos maiores, como um porto, para que o comércio se torne mais barato, uma prefeitura, para que possamos acompanhar tudo, ou até mesmo uma universidade, para que você possa começar a explorar o mundo ao nosso redor.",
+                "message2": "Suas capacidades ainda são limitadas. Certifique-se de obter um fluxo constante de recursos primeiro. Em seguida, construa um mercado para poder negociar com outros assentamentos. À medida que você ganha espaço, pode até mesmo iniciar projetos maiores, como um porto, para que o comércio se torne mais barato, uma prefeitura, para que possamos acompanhar tudo, ou até mesmo uma universidade, para que você possa começar a explorar o mundo ao nosso redor.",
                 "good_luck": "Você consegue!"
             },
             "s": {
                 "message1": "Ótima escolha para se estabelecer neste bioma rochoso, onde você pode se tornar um com a terra. Encontrar pedras e minérios não será problema aqui. Embora possa ser um pouco mais difícil cultivar alimentos, tenho certeza de que outros ficarão felizes em trocar pela sua abundância de materiais preciosos.",
-                "message2": "Suas capacidades ainda são limitadas. Certifique-se de obter um fluxo constante de recursos primeiro. Em seguida, construa um mercado para que você possa negociar com outros assentamentos. À medida que você ganha espaço, pode até mesmo iniciar projetos maiores, como um porto, para que o comércio se torne mais barato, uma prefeitura, para que possamos acompanhar tudo, ou até mesmo uma universidade, para que você possa começar a explorar o mundo ao nosso redor.",
+                "message2": "Suas capacidades ainda são limitadas. Certifique-se de obter um fluxo constante de recursos primeiro. Em seguida, construa um mercado para poder negociar com outros assentamentos. À medida que você ganha espaço, pode até mesmo iniciar projetos maiores, como um porto, para que o comércio se torne mais barato, uma prefeitura, para que possamos acompanhar tudo, ou até mesmo uma universidade, para que você possa começar a explorar o mundo ao nosso redor.",
                 "good_luck": "Construa com solidez!"
             },
             "e": {
@@ -420,7 +421,7 @@
             "welcome": "Bem-vindo, {{name}}!"
         },
         "sandbox": {
-            "description": "O modo Sandbox permite que você construa livremente, sem as restrições do mundo multijogador. Você pode salvar seu progresso e carregá-lo mais tarde.",
+            "description": "O modo Sandbox permite que você construa livremente, sem as restrições do mundo multijogador. É só você e zero restrições de recursos. Você pode salvar seu progresso e carregá-lo mais tarde.",
             "loadFromFile": "Carregar do arquivo",
             "loadTitle": "Carregar Sandbox",
             "noSaves": "Não foram encontrados salvamentos locais.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Desbloquear com 1.000 habitantes",
             "unlockHint100000": "Desbloquear com 100 mil habitantes",
             "unnamedCity": "Cidade sem nome"
+        },
+        "locked": {
+            "settleFirst": "Comece por construir o centro da sua cidade.",
+            "townHall": "Construa uma Câmara Municipal para desbloquear a classificação global, alianças e opções.",
+            "university": "Construa uma universidade para desbloquear expedições e pesquisas.",
+            "market": "Construa um mercado ou porto para desbloquear o mercado global.",
+            "noBiomeAssets": "Não há edifícios deste tipo disponíveis neste bioma."
         }
     },
     "modals": {
@@ -627,7 +635,8 @@
             "Use a tecla Shift para continuar colocando edifícios.",
             "Se você encontrar algum problema, informe-nos no Discord.",
             "Alguns edifícios só podem ser colocados perto do edifício principal. Como a serra e o lenhador.",
-            "Nem todos os recursos são fáceis de obter em todos os lugares. Às vezes, negociar será mais barato do que produzir tudo por conta própria."
+            "Nem todos os recursos são fáceis de obter em todos os lugares. Às vezes, negociar será mais barato do que produzir tudo por conta própria.",
+            "Uma avaliação no Steam nos ajuda a encontrar novos jogadores que tornam este mundo vivo."
         ]
     },
     "tooltip": {

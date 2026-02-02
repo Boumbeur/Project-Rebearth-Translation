@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Apagar",
+        "deleting": "A eliminar...",
         "loading": "A carregar..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "O nosso território é tão vasto quanto a nossa visão. Se conseguirmos ver mais longe, o nosso território aumenta ainda mais.",
                 "windmill": "É incrível como alguém conseguiu transformar o vento em comida. É a única maneira viável de transformar essas rochas vegetais duras em farinha para o nosso pão macio e delicioso.",
                 "windmill_upgraded": "Com estes materiais estranhos que encontramos, tenho a certeza de que podemos fazer este moinho funcionar ainda mais rápido. Quanto mais peças móveis, melhor, certo?",
-                "woodcutter": "O lenhador vai cortar madeira. Eles são muito bons nisso, mas parecem ser maus a barbear-se.",
+                "woodcutter": "O lenhador cortará madeira. Quanta madeira? Tanta quanto um lenhador conseguir.",
                 "refinery": "A refinaria é usada para refinar rochas estranhas e transformá-las em rochas brilhantes e maleáveis.",
                 "iron_mine": "Fizemos um buraco profundo, porque encontramos algumas rochas estranhas. Vamos enviar todo o nosso pessoal lá para as recolher. O que é que pode acontecer de pior?",
                 "glassworks": "A Glassworks permite produzir vidro a partir de areia, que pode ser usado para várias aplicações avançadas.",
@@ -420,7 +421,7 @@
             "welcome": "Bem-vindo, {{name}}!"
         },
         "sandbox": {
-            "description": "O modo Sandbox permite construir livremente, sem as restrições do mundo multijogador. Pode guardar o seu progresso e carregá-lo mais tarde.",
+            "description": "O modo Sandbox permite que você construa livremente, sem as restrições do mundo multijogador. É só você e zero restrições de recursos. Você pode salvar o seu progresso e carregá-lo mais tarde.",
             "loadFromFile": "Carregar a partir do ficheiro",
             "loadTitle": "Carregar Sandbox",
             "noSaves": "Não foram encontrados registos locais.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Desbloquear com 1000 habitantes",
             "unlockHint100000": "Desbloquear com 100 mil habitantes",
             "unnamedCity": "Cidade sem nome"
+        },
+        "locked": {
+            "settleFirst": "Comece por construir o centro da sua cidade.",
+            "townHall": "Construa uma Câmara Municipal para desbloquear a classificação global, alianças e opções.",
+            "university": "Construa uma universidade para desbloquear expedições e pesquisas.",
+            "market": "Construa um mercado ou porto para desbloquear o mercado global.",
+            "noBiomeAssets": "Não há edifícios deste tipo disponíveis neste bioma."
         }
     },
     "modals": {
@@ -627,7 +635,8 @@
             "Use a tecla Shift para continuar a colocar edifícios.",
             "Se encontrar algum problema, informe-nos no Discord.",
             "Alguns edifícios só podem ser colocados perto do edifício principal. Como a serra e o lenhador.",
-            "Nem todos os recursos são fáceis de obter em todos os lugares. Às vezes, negociar será mais barato do que produzir tudo por conta própria."
+            "Nem todos os recursos são fáceis de obter em todos os lugares. Às vezes, negociar será mais barato do que produzir tudo por conta própria.",
+            "Uma avaliação no Steam ajuda-nos a encontrar novos jogadores que tornam este mundo vivo."
         ]
     },
     "tooltip": {

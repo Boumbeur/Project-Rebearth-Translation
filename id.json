@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Hapus",
+        "deleting": "Menghapus...",
         "loading": "Muat..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Wilayah kami sejauh yang dapat kami lihat. Jika kami dapat melihat lebih jauh, wilayah kami akan bertambah lebih jauh.",
                 "windmill": "Ajaib sekali bagaimana seseorang bisa mengubah angin menjadi makanan. Itu satu-satunya cara yang mungkin untuk mengubah batu-batu tanaman yang keras menjadi tepung untuk roti lembut dan lezat kita.",
                 "windmill_upgraded": "Dengan bahan-bahan aneh yang kita temukan ini, saya yakin kita bisa membuat kincir angin ini bekerja lebih cepat. Semakin banyak bagian yang bergerak, semakin baik, kan?",
-                "woodcutter": "Penebang kayu akan menebang kayu. Mereka sangat ahli dalam hal itu, tetapi sepertinya kurang mahir dalam hal mencukur.",
+                "woodcutter": "Penebang kayu akan menebang kayu. Berapa banyak kayu? Sebanyak yang bisa ditebang oleh seorang penebang kayu.",
                 "refinery": "Pabrik pengolahan digunakan untuk mengolah batu aneh menjadi batu yang berkilau dan lentur.",
                 "iron_mine": "Kami membuat lubang dalam, karena kami menemukan beberapa batu aneh. Mari kirim semua orang kita ke sana untuk mengambilnya. Apa yang paling buruk yang bisa terjadi.",
                 "glassworks": "Glassworks memungkinkan Anda memproduksi kaca dari pasir, yang dapat digunakan untuk berbagai aplikasi canggih.",
@@ -373,12 +374,12 @@
         "based": {
             "w": {
                 "message1": "Pilihan yang bagus! Anda telah menetap di bioma yang dipenuhi pohon-pohon rindang dan satwa liar. Mencari kayu dan mengumpulkan sumber daya di sini tidak akan menjadi masalah. Meskipun bahan-bahan yang lebih kompleks dan bijih mungkin sedikit lebih sulit untuk didapatkan. Tapi saya percaya pada Anda, dan Anda akan melihat bahwa tidak ada yang tidak mungkin.",
-                "message2": "Kemampuan Anda masih terbatas. Pastikan Anda mendapatkan aliran sumber daya yang stabil terlebih dahulu. Kemudian bangun pasar agar Anda dapat berdagang dengan pemukiman lain. Seiring Anda mendapatkan pijakan, Anda bahkan dapat memulai proyek-proyek besar seperti pelabuhan agar perdagangan menjadi lebih murah, balai kota agar kita dapat memantau segala sesuatu, atau bahkan universitas agar Anda dapat mulai menjelajahi dunia di sekitar kita.",
+                "message2": "Kemampuan Anda masih terbatas. Pastikan Anda mendapatkan aliran sumber daya yang stabil terlebih dahulu. Kemudian bangun pasar agar Anda dapat berdagang dengan pemukiman lain. Seiring Anda memperkuat posisi, Anda bahkan dapat memulai proyek-proyek besar seperti pelabuhan agar perdagangan menjadi lebih murah, balai kota agar kita dapat memantau segala sesuatu, atau bahkan universitas agar Anda dapat mulai menjelajahi dunia di sekitar kita.",
                 "good_luck": "Kamu bisa melakukannya!"
             },
             "s": {
                 "message1": "Pilihan yang tepat untuk menetap di bioma berbatu ini, di mana Anda dapat menyatu dengan alam. Menemukan batu dan bijih tidak akan menjadi masalah di sini. Meskipun makanan mungkin sedikit lebih sulit untuk ditanam. Namun, saya yakin orang lain akan dengan senang hati bertukar dengan kelimpahan bahan berharga Anda.",
-                "message2": "Kemampuan Anda masih terbatas. Pastikan Anda mendapatkan aliran sumber daya yang stabil terlebih dahulu. Kemudian bangun pasar agar Anda dapat berdagang dengan pemukiman lain. Seiring Anda mendapatkan pijakan, Anda bahkan dapat memulai proyek-proyek besar seperti pelabuhan agar perdagangan menjadi lebih murah, balai kota agar kita dapat memantau segala sesuatu, atau bahkan universitas agar Anda dapat mulai menjelajahi dunia di sekitar kita.",
+                "message2": "Kemampuan Anda masih terbatas. Pastikan Anda mendapatkan aliran sumber daya yang stabil terlebih dahulu. Kemudian bangun pasar agar Anda dapat berdagang dengan pemukiman lain. Seiring Anda memperkuat posisi, Anda bahkan dapat memulai proyek-proyek besar seperti pelabuhan agar perdagangan menjadi lebih murah, balai kota agar kita dapat memantau segala sesuatu, atau bahkan universitas agar Anda dapat mulai menjelajahi dunia di sekitar kita.",
                 "good_luck": "Bangunlah dengan kokoh!"
             },
             "e": {
@@ -420,7 +421,7 @@
             "welcome": "Selamat datang, {{name}}!"
         },
         "sandbox": {
-            "description": "Mode Sandbox memungkinkan Anda membangun secara bebas tanpa batasan dunia multipemain. Anda dapat menyimpan kemajuan Anda dan memuatnya nanti.",
+            "description": "Mode Sandbox memungkinkan Anda membangun secara bebas tanpa batasan dunia multipemain. Hanya Anda dan tanpa batasan sumber daya. Anda dapat menyimpan kemajuan Anda dan memuatnya nanti.",
             "loadFromFile": "Muat dari Berkas",
             "loadTitle": "Muat Sandbox",
             "noSaves": "Tidak ditemukan penyimpanan lokal.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Buka kunci pada 1.000 penduduk.",
             "unlockHint100000": "Buka kunci pada 100.000 penduduk.",
             "unnamedCity": "Kota Tanpa Nama"
+        },
+        "locked": {
+            "settleFirst": "Mulailah dengan membangun pusat kota Anda terlebih dahulu.",
+            "townHall": "Bangun Balai Kota untuk membuka peringkat global, aliansi, dan pilihan.",
+            "university": "Bangun Universitas untuk membuka ekspedisi dan penelitian.",
+            "market": "Bangun Pasar atau Pelabuhan untuk membuka pasar global.",
+            "noBiomeAssets": "Tidak ada bangunan jenis ini yang tersedia di bioma ini."
         }
     },
     "modals": {
@@ -621,13 +629,14 @@
     },
     "tips": {
         "loading": [
-            "Satu hari dalam permainan setara dengan satu hari dalam kehidupan nyata. Ambil waktu Anda dan kembangkan kota Anda dengan kecepatan Anda sendiri.",
+            "Satu hari dalam permainan setara dengan satu hari di dunia nyata. Ambil waktu Anda dan kembangkan kota Anda dengan kecepatan Anda sendiri.",
             "Anda dapat memutar bangunan sebelum menempatkannya dengan menggunakan tombol Q dan E.",
             "Klik ganda di editor bentuk untuk menempatkan node.",
             "Gunakan tombol Shift untuk terus menempatkan bangunan.",
             "Jika Anda mengalami masalah, silakan beritahu kami di Discord.",
             "Beberapa bangunan hanya dapat ditempatkan di dekat bangunan induknya. Misalnya, gergaji dan penebang kayu.",
-            "Tidak semua sumber daya mudah didapatkan di mana-mana. Terkadang berdagang akan lebih murah daripada memproduksi semuanya sendiri."
+            "Tidak semua sumber daya mudah didapatkan di mana-mana. Terkadang berdagang akan lebih murah daripada memproduksi semuanya sendiri.",
+            "Ulasan di Steam membantu kami menemukan pemain baru yang menjadikan dunia ini hidup."
         ]
     },
     "tooltip": {

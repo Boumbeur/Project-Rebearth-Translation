@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Supprimer",
+        "deleting": "Suppression...",
         "loading": "Chargement..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Notre territoire s'étend aussi loin que notre regard peut porter. Si nous pouvons voir plus loin, notre territoire s'étend davantage.",
                 "windmill": "C'est fou comment quelqu'un a réussi à transformer le vent en nourriture. C'est la seule façon viable de transformer ces roches végétales dures en farine pour notre pain moelleux et délicieux.",
                 "windmill_upgraded": "Avec ces matériaux étranges que nous trouvons, je suis sûr que nous pouvons faire fonctionner ce moulin à vent encore plus rapidement. Plus il y a de pièces mobiles, mieux c'est, n'est-ce pas ?",
-                "woodcutter": "Le bûcheron coupe du bois. Il est très doué pour cela, mais semble avoir du mal à se raser.",
+                "woodcutter": "Le bûcheron va couper du bois. Combien de bois ? Autant qu'un bûcheron peut en couper.",
                 "refinery": "La raffinerie sert à transformer des roches étranges en roches brillantes et malléables.",
                 "iron_mine": "Nous avons creusé un trou profond, car nous avons trouvé des roches étranges. Envoyons tous nos hommes là-bas pour les récupérer. Que peut-il arriver de pire ?",
                 "glassworks": "Glassworks vous permet de produire du verre à partir de sable, qui peut être utilisé pour diverses applications avancées.",
@@ -373,12 +374,12 @@
         "based": {
             "w": {
                 "message1": "Bon choix ! Vous vous êtes installé dans un biome regorgeant d'arbres luxuriants et d'animaux sauvages. Trouver du bois et récolter des ressources ne posera aucun problème ici. Cependant, les matériaux et minerais plus complexes pourraient être un peu plus difficiles à trouver. Mais je crois en vous et vous verrez que rien n'est impossible.",
-                "message2": "Vos capacités sont encore limitées. Assurez-vous d'abord d'obtenir un flux constant de ressources. Construisez ensuite un marché afin de pouvoir commercer avec d'autres colonies. Une fois que vous aurez pris pied, vous pourrez même vous lancer dans des projets plus ambitieux, comme la construction d'un port pour réduire les coûts commerciaux, d'une mairie pour garder une vue d'ensemble, ou même d'une université pour commencer à explorer le monde qui nous entoure.",
+                "message2": "Vos capacités sont encore limitées. Assurez-vous d'abord d'obtenir un flux constant de ressources. Construisez ensuite un marché afin de pouvoir commercer avec d'autres colonies. À mesure que vous vous établissez, vous pouvez même vous lancer dans des projets plus ambitieux, comme la construction d'un port pour réduire les coûts commerciaux, d'une mairie pour garder une trace de tout, ou même d'une université pour commencer à explorer le monde qui nous entoure.",
                 "good_luck": "Vous avez tout compris !"
             },
             "s": {
                 "message1": "C'est un excellent choix que de s'installer dans ce biome rocheux où vous pouvez ne faire qu'un avec la terre. Vous n'aurez aucun mal à trouver de la pierre et du minerai ici. Il sera peut-être un peu plus difficile de cultiver de la nourriture, mais je suis sûr que les autres seront ravis d'échanger vos précieuses ressources contre la leur.",
-                "message2": "Vos capacités sont encore limitées. Assurez-vous d'abord d'obtenir un flux régulier de ressources. Construisez ensuite un marché afin de pouvoir commercer avec d'autres colonies. Une fois que vous aurez pris pied, vous pourrez même vous lancer dans des projets plus ambitieux, comme la construction d'un port pour réduire les coûts commerciaux, d'une mairie pour garder une trace de tout, ou même d'une université pour commencer à explorer le monde qui nous entoure.",
+                "message2": "Vos capacités sont encore limitées. Assurez-vous d'abord d'obtenir un flux constant de ressources. Construisez ensuite un marché afin de pouvoir commercer avec d'autres colonies. À mesure que vous vous établissez, vous pouvez même vous lancer dans des projets plus ambitieux, comme la construction d'un port pour réduire les coûts commerciaux, d'une mairie pour garder une trace de tout, ou même d'une université pour commencer à explorer le monde qui nous entoure.",
                 "good_luck": "Construisez solide !"
             },
             "e": {
@@ -420,7 +421,7 @@
             "welcome": "Bienvenue, {{name}} !"
         },
         "sandbox": {
-            "description": "Le mode Sandbox vous permet de construire librement sans les contraintes du monde multijoueur. Vous pouvez enregistrer votre progression et la charger ultérieurement.",
+            "description": "Le mode Sandbox vous permet de construire librement sans les contraintes du monde multijoueur. Il n'y a que vous et aucune restriction en matière de ressources. Vous pouvez enregistrer votre progression et la charger plus tard.",
             "loadFromFile": "Charger à partir d'un fichier",
             "loadTitle": "Charger le bac à sable",
             "noSaves": "Aucune sauvegarde locale trouvée.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Débloquer à 1 000 habitants",
             "unlockHint100000": "Déblocage à 100 000 habitants",
             "unnamedCity": "Ville sans nom"
+        },
+        "locked": {
+            "settleFirst": "Commencez par construire le centre de votre ville.",
+            "townHall": "Construisez un hôtel de ville pour débloquer le classement mondial, les alliances et les choix.",
+            "university": "Construisez une université pour débloquer des expéditions et des recherches.",
+            "market": "Construisez un marché ou un port pour débloquer le marché mondial.",
+            "noBiomeAssets": "Aucun bâtiment de ce type n'est disponible dans ce biome."
         }
     },
     "modals": {
@@ -627,7 +635,8 @@
             "Utilisez la touche Maj pour continuer à placer des bâtiments.",
             "Si vous rencontrez des problèmes, veuillez nous en faire part sur Discord.",
             "Certains bâtiments ne peuvent être placés qu'à proximité du bâtiment parent. C'est le cas de la scie et du bûcheron.",
-            "Toutes les ressources ne sont pas faciles à obtenir partout. Parfois, il sera moins coûteux de faire du commerce que de tout produire soi-même."
+            "Toutes les ressources ne sont pas faciles à obtenir partout. Parfois, il sera moins coûteux de faire du commerce que de tout produire soi-même.",
+            "Les avis publiés sur Steam nous aident à trouver de nouveaux joueurs qui font de ce monde un univers vivant."
         ]
     },
     "tooltip": {

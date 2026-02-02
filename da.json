@@ -67,6 +67,7 @@
     },
     "common": {
         "delete": "Slet",
+        "deleting": "Sletter...",
         "loading": "Indlæser..."
     },
     "controls": {
@@ -288,7 +289,7 @@
                 "water_tower": "Vores territorium strækker sig så langt, vi kan se. Hvis vi kan se længere, udvides vores territorium yderligere.",
                 "windmill": "Det er vanvittigt, at nogen har kunnet omdanne vinden til mad. Det er den eneste mulige måde at omdanne de hårde planter til mel til vores bløde, lækre brød.",
                 "windmill_upgraded": "Med disse mærkelige materialer, vi finder, er jeg sikker på, at vi kan få denne vindmølle til at arbejde endnu hurtigere. Jo flere bevægelige dele, jo bedre, ikke?",
-                "woodcutter": "Skovhuggerne hugger træ. De er rigtig gode til det, men synes at være dårlige til at barbere sig.",
+                "woodcutter": "Skovhuggeren vil hugge træ. Hvor meget træ? Så meget som en skovhugger kan.",
                 "refinery": "Raffinaderiet bruges til at forædle mærkelige sten til skinnende, formbare sten.",
                 "iron_mine": "Vi gravede en dyb grav, fordi vi fandt nogle mærkelige sten. Lad os sende alle vores folk derned for at hente dem. Hvad er det værste, der kan ske?",
                 "glassworks": "Glassworks giver dig mulighed for at fremstille glas af sand, som kan bruges til forskellige avancerede formål.",
@@ -378,7 +379,7 @@
             },
             "s": {
                 "message1": "Et godt valg at bosætte sig i dette stenede biom, hvor du kan blive ét med jorden. Det er ikke noget problem at finde sten og malm her. Det kan dog være lidt sværere at dyrke mad. Men jeg er sikker på, at andre gerne vil bytte med dig for dine rigelige forekomster af værdifulde materialer.",
-                "message2": "Dine muligheder er stadig begrænsede. Sørg først for at sikre en stabil strøm af ressourcer. Opbyg derefter et marked, så du kan handle med andre bosættelser. Når du har fået fodfæste, kan du endda starte større projekter som en havn, så handel bliver billigere, et rådhus, så vi kan holde styr på alt, eller endda et universitet, så du kan begynde at udforske verden omkring os.",
+                "message2": "Dine muligheder er stadig begrænsede. Sørg for at sikre dig en stabil strøm af ressourcer først. Byg derefter et marked, så du kan handle med andre bosættelser. Når du har fået fodfæste, kan du endda starte større projekter som en havn, så handel bliver billigere, et rådhus, så vi kan holde styr på alt, eller endda et universitet, så du kan begynde at udforske verden omkring os.",
                 "good_luck": "Byg stærkt!"
             },
             "e": {
@@ -420,7 +421,7 @@
             "welcome": "Velkommen, {{name}}!"
         },
         "sandbox": {
-            "description": "Sandkasse-tilstand giver dig mulighed for at bygge frit uden begrænsningerne fra multiplayer-verdenen. Du kan gemme din fremgang og indlæse den senere.",
+            "description": "Sandkasse-tilstand giver dig mulighed for at bygge frit uden begrænsningerne fra multiplayer-verdenen. Det er kun dig og ingen ressourcebegrænsninger. Du kan gemme din fremgang og indlæse den senere.",
             "loadFromFile": "Indlæs fra fil",
             "loadTitle": "Indlæs sandkasse",
             "noSaves": "Ingen lokale gemte filer fundet.",
@@ -440,6 +441,13 @@
             "unlockHint1000": "Lås op ved 1.000 indbyggere",
             "unlockHint100000": "Lås op ved 100.000 indbyggere",
             "unnamedCity": "Unavngiven by"
+        },
+        "locked": {
+            "settleFirst": "Byg først din bys centrum.",
+            "townHall": "Byg et rådhus for at låse op for global rangering, alliancer og valgmuligheder.",
+            "university": "Byg et universitet for at låse ekspeditioner og forskning op.",
+            "market": "Byg et marked eller en havn for at låse det globale marked op.",
+            "noBiomeAssets": "Der findes ingen bygninger af denne type i dette biom."
         }
     },
     "modals": {
@@ -627,7 +635,8 @@
             "Brug shift-tasten til at fortsætte med at placere bygninger.",
             "Hvis du støder på problemer, bedes du give os besked på Discord.",
             "Nogle bygninger kan kun placeres tæt på den overordnede bygning. F.eks. saven og træfælderen.",
-            "Ikke alle ressourcer er lige nemme at få fat i overalt. Nogle gange er det billigere at handle end at producere alt selv."
+            "Ikke alle ressourcer er lige nemme at få fat i overalt. Nogle gange er det billigere at handle end at producere alt selv.",
+            "En anmeldelse på Steam hjælper os med at finde nye spillere, der gør dette til en levende verden."
         ]
     },
     "tooltip": {
