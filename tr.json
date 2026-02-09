@@ -120,7 +120,8 @@
             "expedition_found": "Keşif gezisi geri dönüyor!",
             "animal_unlock": "Vay vay vay... burada ne varmış bakalım?",
             "bankruptcy": "İflas!",
-            "raid": "Mallarınız çalındı!"
+            "raid": "Mallarınız çalındı!",
+            "trade": "Anlaştık!"
         },
         "descriptions": {
             "food_shortage": "Yiyecekleriniz bitmek üzere! İnsanlar yemek yiyemezlerse, geçinmek için ellerinden geleni çalacaklar, hatta çalışmayı bile bırakacaklar.",
@@ -130,7 +131,8 @@
             "expedition_found": "Keşif ekibiniz değerli kaynaklar ve bilgilerle geri döndü! Bu, kasabanızın gelişimi ve araştırma çalışmalarına büyük fayda sağlayacaktır. Ancak, seyir defterlerinde ilginç bir giriş var:",
             "animal_unlock": "Burada ne bulduk? Keşif geziniz şaşırtıcı derecede uysal bir hayvanla geri döndü. Vahşi doğada yaşamaktansa sizin kasabanızda yaşamak istiyor gibi görünüyor. Onu şimdi geri göndermek kabalık olur, değil mi?",
             "bankruptcy": "Hiç paran yok! Bir kule yıkıldı. Yeterli parayla bakımını yapmazsan, inşa ettiğin kuleler bozulur ve yıkılır.",
-            "raid": "Eşyalarını daha iyi saklamalıydın! Kolayca ele geçirilebildiler ve kimliği bilinmeyen hırsızlar kaynaklarının bir kısmını çaldı."
+            "raid": "Eşyalarını daha iyi saklamalıydın! Kolayca ele geçirilebildiler ve kimliği bilinmeyen hırsızlar kaynaklarının bir kısmını çaldı.",
+            "trade": "Birisi ticaret emrinizin (bir kısmını) yerine getirdi."
         }
     },
     "game": {
@@ -422,6 +424,8 @@
             "settings": "Ayarlar",
             "subtitle": "Bu, Project Rebearth'ın erken bir sürümüdür. Oynarken herhangi bir sorunla karşılaşırsanız lütfen bize ulaşın.",
             "demoSubtitle": "Bu, Project Rebearth'ın demosudur. Yalnızca sandbox şehir kurma özelliği etkindir. Kaynak yönetimi ile çok oyunculu küre üzerinde oynamak için tam sürümü edinin.",
+            "demoRestriction1": "Bu düğmenin arkasında Project Rebearth'ın devasa çevrimiçi çok oyunculu dünyası yatıyor. Ancak demoda, kaynak yönetimi olmayan sadece sandbox modu kullanılabilir.",
+            "demoRestriction2": "Sandbox modu, harika haritalar oluşturmanıza, bunları yüksek çözünürlükte dışa aktarmanıza ve 1:1 ölçekli bir oyun dünyasının nasıl bir his olduğunu deneyimlemenize olanak tanır.",
             "title": "Project Rebearth Sunucusu",
             "welcome": "{{name}}'a hoş geldiniz!"
         },
@@ -444,7 +448,7 @@
             "slot": "Slot",
             "title": "Kaydetme Yuvası Seç",
             "unlockHint1000": "1000 nüfusa ulaşıldığında kilit açılır.",
-            "unlockHint100000": "100.000 nüfusa ulaşıldığında kilidi açılır.",
+            "unlockHint10000": "10.000 nüfusa ulaşıldığında açılır.",
             "unnamedCity": "İsimsiz Şehir"
         },
         "locked": {
@@ -482,6 +486,7 @@
             "base": "Temel",
             "buy": "SATIN AL",
             "buys": "satın alır",
+            "bought": "satın alındı",
             "for": "için",
             "price": "Fiyat",
             "pricePerUnit": "Birim başına fiyat",
@@ -489,6 +494,7 @@
             "resource": "Kaynak",
             "sell": "Bak",
             "sells": "satıyor",
+            "sold": "satıldı",
             "title": "Pazar",
             "total": "Toplam",
             "totalLabel": "Toplam",
@@ -641,15 +647,20 @@
             "Şekil düzenleyicide çift tıklayarak düğümleri yerleştirin.",
             "Shift tuşunu kullanarak binaları yerleştirmeye devam edin.",
             "Herhangi bir sorunla karşılaşırsanız, lütfen Discord üzerinden bize bildirin.",
-            "Discord'daki canlı oyuncu topluluğumuza katılın, yaratımlarınızı paylaşın ve ipuçları alın.",
+            "Diğer oyuncularla ticaret yapabilmek için bir pazar veya liman inşa edin.",
+            "İttifakları, sıralamaları ve seçenekleri açmak için bir belediye binası inşa edin.",
+            "Keşifleri ve araştırmaları açmak için bir üniversite kurun.",
+            "Steam'deki yorumlar, bu oyunu canlı bir dünya haline getiren yeni oyuncular bulmamıza yardımcı oluyor.",
             "Tüm kaynaklar her yerde kolayca elde edilemez. Bazen ticaret, her şeyi kendiniz üretmekten daha ucuz olabilir.",
             "Steam'deki yorumlar, bu oyunu canlı bir dünya haline getiren yeni oyuncular bulmamıza yardımcı oluyor.",
-            "Steam'deki yorumlar, bu oyunu canlı bir dünya haline getiren yeni oyuncular bulmamıza yardımcı oluyor."
+            "Steam'deki yorumlar, bu oyunu canlı bir dünya haline getiren yeni oyuncular bulmamıza yardımcı oluyor.",
+            "Project dünyası hakkında her şeyi öğrenmek için projectrebearth.com adresindeki wiki sayfasını ziyaret edin."
         ]
     },
     "tooltip": {
         "cannotChange": "Değiştirilemez",
         "construction": "İnşaat",
+        "refund": "Para iadesi",
         "costPerMeter": "(m için)",
         "costPerSquareMeter": "(metrekare başına)",
         "effects": "Efektler",
